@@ -1,12 +1,33 @@
-<h3 align="center">Reservoir Market v2 [BETA]</h3>
+<h3 align="center">Odyssey MVP V2 [BETA]</h3>
   <p align="center">
-An open source NFT marketplace built on Reservoir.
+An open source NFT marketplace built on Reservoir, Thirdweb SDK and Manifold Creator Contracts. Reservoir is primarily an API platform. Yes, this repo is our MVP NFT marketplace, but think of it more like a reference marketplace. Designed to show what's possible, and to be forked to build your own.
+
+<h3>🄶🄾🄾🄳 🅅🄸🄱🄴🅂 🄾🄷🄼🄻🅈</h3>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-Reservoir Market v2 is an open source marketplace built with Reservoir APIs that enables access to instant liquidity aggregated from major marketplace. We encourage developers to use this project as a reference for their own implementation or even fork the project and make their own meaningful changes. The project is lightly configurable refer to the configuration variables below. If you're looking for a no-code solution check out our [v1 marketplace](https://github.com/reservoirprotocol/marketplace-v1).
+Reservoir Market v2 is an open source marketplace built with Reservoir APIs that enables access to instant liquidity aggregated from major marketplace. Odyssey is a community-driven marketplace and aggregator in one. It lets you analyze and purchase many NFTs at once from multiple marketplaces. A common use case that requires buying multiple NFTs in a single transaction is floor-sweeping, which is slang for purchasing numerous of the lowest-priced NFTs from a specific collection. The app compiles NFT listings from popular markets, as well as allows users to offer their assets natively on Odyssey. Listing options include floor price, trait floor price, and in the same flow also list on OS, LR, etc, ...
+
+Collections are shown in the order of their one-day trading volume by default, and essential data elements such as floor price, number of owners, and other price and volume indicators are displayed at a glance. It also displays the scarcity of certain NFTs and allows users to view the floor price for specific attributes and make offers on a collection level, or make an offer on very specific traits, and get a clear indication of the current floor prices for these traits. 
+
+The portfolio page allows users to see all of the Ethereum-based NFTs in their wallet, and it aims to integrate NFTs into other networks in the future.
+
+## Features:
+
+Instant buy with aggregated liquidity
+Referrer fees on top of aggregated orders
+Listing on all major marketplaces
+Real-time floor prices per trait
+Top bid changes, daily volume, and sales data
+Real-time and historical activity (more thoon)
+Listings, bids, transfers, etc, .. across marketplaces
+Selling to the highest bid directly from your wallet
+Add missing royalty fees on top of aggregated orders
+Automatic handling of transaction approval steps
+Balance checks and error handling
+Suspicious token warnings
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -60,9 +81,6 @@ Reservoir Market v2 is lightly configurable with the configurations below. You c
 | NEXT_PUBLIC_ALCHEMY_ID | `true` | Alchemy API key required for removing rate limiting restrictions. [Get your own API key here](https://docs.alchemy.com/alchemy/introduction/getting-started#1.create-an-alchemy-key). | 123e4567-e89b-12d3-a456-426614174000 |
 | NEXT_PUBLIC_COLLECTION_SET_ID | `false` | Use this to configure a community marketplace. Generate your collection set ID [here](https://docs.reservoir.tools/reference/postcollectionssetsv1). | f566ba09c14f56aedeed3f77e3ae7f5ff28b9177714d3827a87b7a182f8f90ff |
 | NEXT_PUBLIC_COMMUNITY | `false` | Use this to configure a community marketplace. Note: Community IDs are only available for certain communities. | artblocks |
-| NEXT_PUBLIC_NORMALIZE_ROYALTIES | `false` | Enables royalty normalization. Refer to [docs](https://docs.reservoir.tools/docs/normalized-royalties) for more info. | true/false |
-| NEXT_PUBLIC_DATADOG_CLIENT_TOKEN | `false` | Datadog client token for configuring analytics. | pubdaddswww4dad449dadas12ada123bae |
-| NEXT_PUBLIC_DATADOG_APPLICATION_ID | `false` | Datadog application id for configuring analytics. | 123cccbb-1234-1111-4411-abc12345612afgds |
 
 ### Run the App
 
