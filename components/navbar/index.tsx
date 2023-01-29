@@ -59,7 +59,7 @@ const Navbar = () => {
         <Flex align="center">
           <Link href="/">
             <Box css={{ width: 34, cursor: 'pointer' }}>
-              <img src="/reservoirLogo.svg" style={{ width: '100%' }} />
+              <img src="/reservoirLogo.svg" style={{ width: '33%' }} />
             </Box>
           </Link>
         </Flex>
