@@ -87,7 +87,7 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
       >
 
             <div className="min-h-screen bg-center bg-cover bg-no-repeat">
-              <img src="bongbearsNFT.jpeg" className="absolute top-0 left-0 w-full h-full object-cover blur-image-on-load" alt="Background"/>
+              <img src="odyssey33.jpeg" className="absolute top-0 left-0 w-full h-full object-cover blur-image-on-load" alt="Background"/>
             </div>
 
         <Flex css={{ my: '$6', gap: 65 }} direction="column">
